@@ -1,5 +1,5 @@
-# [95Windows](https://95Windows.rf.gd/)
-A web-based Windows 95 (type A, B and C) product key generator, built in HTML, CSS and JavaScript
+# [🪟95Windows](https://95Windows.rf.gd/)
+A web-based Windows 95 (type A, B and C) product key generator.
 ### Changelogs
 - [x] 1X - Testing..
 - [x] 1A - Site's UI sketched up, no scripts.

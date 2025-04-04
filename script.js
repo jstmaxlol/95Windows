@@ -1,7 +1,7 @@
 /*
 95Windows - JavaScript Scripts
 A web-based Windows 95 product key generator.
-GitHub Repo: https://github.com/MaxWasTakenYT/95Windows/
+GitHub Repo: https://github.com/jstmaxlol/95Windows/
 */
 
 function generateProductKey() {

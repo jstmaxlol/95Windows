@@ -11,7 +11,7 @@ A web-based **Windows 95** (_Retail & OEM_) product key generator.
 - [x] 2A - UI got even better, we got 'OEM' script, but it's half broken.
 - [x] 2B (β) - 'OEM' script is still half broken and we now have dark mode + cookies!
 - [x] 2B - UI's 99% done, 'OEM' script got rewritten, and cookies are now broken!
-- [ ] 2C - Fixing cookies. (Likely the final version)
+- [x] 2C - Fixing cookies. (Likely the final version)
 
 ### Important Notes
 ###### *Current live version: 2B

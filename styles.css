@@ -2,211 +2,223 @@
                               95Windows - CSS Styles
        A web-based Windows 95 product key generator.
 GitHub Repo: https://github.com/jstmaxlol/95Windows/
-*/
+ */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,100..800&display=swap');
 
+u {    
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+}
 .cookie-banner {
-  background-image: linear-gradient(#565656, #aaaaaa);
-  color: white;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-shadow: 0px 1px 4px black;
-  padding: 2px 20px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  box-shadow: 0px 0px 8px black;
+    background-image: linear-gradient(#aaaaaa, #aaaaaa);
+    color: white;
+    font-family: "Inter";
+    font-weight: 600;
+    text-shadow: 0px 1px 4px black;
+    padding: 2px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0px 8px 20px black;
+    letter-spacing: -0.05em;
 }
 .cookie-banner button {
-  background-image: linear-gradient(#c0c0c0, #909090);
-  color: white;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-shadow: 0px 1px 3px black;
-  border: none;
-  padding: 4px 12px;
-  cursor: pointer;
-  margin-left: 8px;
-  box-shadow: 0px 0px 3px black;
-  border-radius: 12px;
-  transition-duration: 0.4s;
+    background-image: linear-gradient(#c0c0c0, #909090);
+    color: white;
+    font-family: "Inter";
+    font-weight: 500;
+    text-shadow: 0px 1px 3px black;
+    border: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    margin-left: 8px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 12px;
+    transition-duration: 0.4s;
 }
 .cookie-banner button:hover {
-  background-image: linear-gradient(#ffffff, #808080);
-  box-shadow: 0px 1px 12px black;
-  border-radius: 4px;
-  color: black;
+    background-image: linear-gradient(#ffffff, #808080);
+    box-shadow: 0px 1px 12px black;
+    border-radius: 4px;
+    color: black;
 }
 
 /* Light Mode Styles */
 .button {
-  background-image: linear-gradient(#fefefe, #c4c4c4);
-  border-color: #cdcdcd;
-  border-width: 1px;
-  border-radius: 0px;
-  color: black;
-  padding: 12px 60px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 21px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  transition-duration: 0.4s;
-  box-shadow: 0px 1px 4px black;
+    background-image: linear-gradient(#fefefe, #c4c4c4);
+    border-color: #cdcdcd;
+    border-width: 1px;
+    border-radius: 0px;
+    color: black;
+    padding: 12px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    font-family: "Inter";
+    font-weight: 500;
+    transition-duration: 0.4s;
+    box-shadow: 0px 1px 4px black;
+    letter-spacing: -0.05em;
 }
 .button:hover {
-  background-image: linear-gradient(#909090, #c0c0c0);
-  color: white;
-  text-shadow: 0px 0px 4px white;
-  box-shadow: 0px 1px 16px black;
+    background-image: linear-gradient(#909090, #c0c0c0);
+    color: white;
+    text-shadow: 0px 0px 4px white;
+    box-shadow: 0px 1px 16px black;
 }
 h1 {
-  color: white;
-  text-shadow: 0px 1px 3px black;
-  font-family: "Ubuntu";
-  font-weight: 300;
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    font-family: "Inter";
+    font-weight: 500;
 }
 .badge {
-  background-image: linear-gradient(#293627, green);
-  color: white;
-  padding: 4px 8px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-align: center;
-  text-shadow: 0px 1px 3px black;
-  border-radius: 5px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  box-shadow: 0px 1px 8px green;
+    background-image: linear-gradient(#398637, green);
+    color: white;
+    padding: 4px 8px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0px 1px 3px black;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 8px green;
 }
 .title1 {
-  text-shadow: 0px 1px 5px black;
-  font-size: 80px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  
+    text-shadow: 0px 1px 5px black;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    letter-spacing: -0.06em;
 }
 .sTitle1 {
-  color: white;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  font-size: 22px;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  text-shadow: 0px 1px 3px black;
+    color: white;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 3px black;
 }
 .sTitle2 {
-  color: #ff5959;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  font-size: 12px;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  text-shadow: 0px 0px 1px red;
+    color: #ff5959;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 1px red;
+    letter-spacing: 0em;
 }
 .generatedA {
-  font-family: Ubuntu;
-  font-weight: 300;
-  font-size: 17px;
-  text-shadow: 0px 1px 2px black;
-  color: white;
-  margin-top: 15px;
-  margin-bottom: 5px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 300;
+    font-size: 17px;
+    text-shadow: 0px 1px 2px black;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    letter-spacing: -0.05em;
 }
 .generatedBC {
-  font-family: Ubuntu;
-  font-weight: 300;
-  font-size: 17px;
-  text-shadow: 0px 1px 2px black;
-  color: white;
-  margin-top: 0px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 300;
+    font-size: 17px;
+    text-shadow: 0px 1px 2px black;
+    color: white;
+    margin-top: 0px;
+    letter-spacing: -0.07em;
 }
 body {
-  background-color: #c8c8c8;
+    letter-spacing: -0.05em;
+    background-color: #c8c8c8;
 }
 
 /* Dark Mode Toggle */
 .dtgl {
-  background-image: linear-gradient(black, gray);
-  color: white;
-  padding: 6px 8px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-align: center;
-  text-shadow: 0px 0px 3px white;
-  border-radius: 5px;
-  border-width: 0px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  box-shadow: 0px 1px 8px gray;
-  transition-duration: 0.4s;
+    background-image: linear-gradient(black, #202520);
+    color: white;
+    padding: 6px 8px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0px 0px 3px white;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    box-shadow: 0px 1px 8px gray;
+    transition-duration: 0.4s;
 }
 .dtgl:hover {
-  background-image: linear-gradient(#909090, #565656);
-  color: black;
-  text-shadow: none;
+    background-image: linear-gradient(#909090, #565656);
+    color: black;
+    text-shadow: none;
 }
 
 /* Dark Mode Styles */
 .dbutton {
-  background-image: linear-gradient(#272727, #505050);
-  border-color: #fcfcfc;
-  border-width: 1px;
-  border-radius: 0px;
-  color: white;
-  padding: 12px 60px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 21px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-shadow: 0px 0px 4px white;
-  transition-duration: 0.4s;
+    background-image: linear-gradient(#272727, #505050);
+    border-color: #fcfcfc;
+    border-width: 1px;
+    border-radius: 0px;
+    color: white;
+    padding: 12px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-shadow: 0px 0px 4px white;
+    transition-duration: 0.4s;
 }
 .dbutton:hover {
-  background-image: linear-gradient(#808080, #505050);
-  color: black;
-  text-shadow: none;
+    background-image: linear-gradient(#808080, #505050);
+    color: black;
+    text-shadow: none;
 }
 .dbadge {
-  background-image: linear-gradient(#669966, green);
-  color: white;
-  padding: 4px 8px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-shadow: 0px 0px 3px white;
-  text-align: center;
-  border-radius: 5px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  box-shadow: 0px 1px 8px green;
+    background-image: linear-gradient(#669966, green);
+    color: white;
+    padding: 4px 8px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-shadow: 0px 0px 3px white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 8px green;
 }
 .drktgl {
-  background-image: linear-gradient(white, gray);
-  color: black;
-  padding: 6px 8px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  text-align: center;
-  text-shadow: none;
-  border-radius: 5px;
-  border-width: 0px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  box-shadow: 0px 1px 8px gray;
-  transition-duration: 0.4s;
+    background-image: linear-gradient(white, gray);
+    color: black;
+    padding: 6px 8px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: center;
+    text-shadow: none;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    box-shadow: 0px 1px 8px gray;
+    transition-duration: 0.4s;
 }
 .drktgl:hover {
-  background-image: linear-gradient(#454545, #808080);
-  color: white;
-  text-shadow: 0px 0px 3px white;
+    background-image: linear-gradient(#454545, #808080);
+    color: white;
+    text-shadow: 0px 0px 3px white;
 }
 .dbody {
-  background-color: #333333;
+    background-color: #333333;
 }

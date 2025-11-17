@@ -79,8 +79,8 @@ function handleGenerateButtonClick() {
     let productKeyElement = document.getElementById('productKey');
     let secondProductKeyElement = document.getElementById('secondProductKey');
 
-    productKeyElement.textContent = "Generated Retail Product Key: " + productKey;
-    secondProductKeyElement.textContent = "Generated OEM Product Key: " + secondProductKey;
+    productKeyElement.textContent = "Retail Product Key: " + productKey;
+    secondProductKeyElement.textContent = "OEM Product Key: " + secondProductKey;
 }
 
 document.getElementById('generateBtn').addEventListener('click', handleGenerateButtonClick);

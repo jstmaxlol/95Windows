@@ -12,7 +12,7 @@ u {
     text-decoration: none;
 }
 .cookie-banner {
-    background-image: linear-gradient(#aaaaaa, #aaaaaa);
+    background-image: linear-gradient(#565656, #454545);
     color: white;
     font-family: "Inter";
     font-weight: 600;
@@ -28,7 +28,7 @@ u {
     letter-spacing: -0.05em;
 }
 .cookie-banner button {
-    background-image: linear-gradient(#c0c0c0, #909090);
+    background-image: linear-gradient(#121212, #212121);
     color: white;
     font-family: "Inter";
     font-weight: 500;
@@ -42,10 +42,10 @@ u {
     transition-duration: 0.4s;
 }
 .cookie-banner button:hover {
-    background-image: linear-gradient(#ffffff, #808080);
+    background-image: linear-gradient(#232323, #323232);
     box-shadow: 0px 1px 12px black;
     border-radius: 4px;
-    color: black;
+    color: #fefefe;
 }
 
 /* Light Mode Styles */

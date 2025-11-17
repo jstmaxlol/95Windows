@@ -194,7 +194,7 @@ body {
     text-shadow: none;
 }
 .dbadge {
-    background-image: linear-gradient(#669966, green);
+    background-image: linear-gradient(#409e40, green);
     color: white;
     padding: 4px 8px;
     font-family: "Inter";

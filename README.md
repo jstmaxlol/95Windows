@@ -13,9 +13,10 @@ A web-based **Windows 95** (_Retail & OEM_) product key generator.
 - [x] 2B - UI's 99% done, 'OEM' script got rewritten, and cookies are now broken!
 - [x] 2C - Fixing cookies. (Likely the final version)
 - [x] 3A - Complete UI overhaul / redesign - Light mode sucks.
+- [x] 3B - Mix of cumulative design updates - Both light and dark mode now look good :)
 
 ### Important Notes
-###### *Current live version: 3A
+###### *Current live version: 3B
 ###### *Since Windows 95 *should be :)* abandonware, Microsoft don't kill me for this
 
 ###### jstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>

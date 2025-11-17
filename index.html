@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-
 <!--
                                           95Windows
       A web-based Windows 95 product key generator.
 GitHub Repo: https://github.com/jstmaxlol/95Windows
 -->
-
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
     <title>95Windows</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/95w.png" type="image/png" />
 </head>
 <body class="body">
     <div id="cookieBanner" class="cookie-banner">
         <p>we use cookies to save preferences, acceptation is 100% optional!
-            <button onclick="acceptCookies()">Accept</button>
+            <button onclick="acceptCookies()">accept</button>
         </p>
     </div>
 <center>
-    <span class="badge">Running version: 3A</span>
+    <canvas id="c"></canvas>
+    <span class="badge">Running version: 3B</span>
     <button id="darkMode" class="dtgl" onclick="darkMode()">Dark Mode</button>
-
     <h1 class="title1">95Windows</h1>
     <h1 class="sTitle1">A web-based <u>Windows 95</u> product key generator<i>!</i>*</h1>
     <h1 class="sTitle2">*Can bug, make sure to report any bugs on GitHub</h1>
@@ -30,6 +32,7 @@ GitHub Repo: https://github.com/jstmaxlol/95Windows
     <p id="productKey" class="generatedA"></p>
     <p id="secondProductKey" class="generatedBC"></p>
 </center>
+<script src="background.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

@@ -7,6 +7,20 @@ GitHub Repo: https://github.com/jstmaxlol/95Windows/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,100..800&display=swap');
 
+canvas#c {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+    background: transparent;
+}
+body, center {
+    position: relative;
+    z-index: 1;
+}
 u {    
     border-bottom: 1px dotted white;
     text-decoration: none;
@@ -50,12 +64,12 @@ u {
 
 /* Light Mode Styles */
 .button {
-    background-image: linear-gradient(#fefefe, #c4c4c4);
+    background-image: linear-gradient(#313131, #252525);
     border-color: #cdcdcd;
-    border-width: 1px;
-    border-radius: 0px;
-    color: black;
-    padding: 12px 60px;
+    border-width: 0x;
+    border-radius: 16px;
+    color: white;
+    padding: 12px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -67,10 +81,10 @@ u {
     letter-spacing: -0.05em;
 }
 .button:hover {
-    background-image: linear-gradient(#909090, #c0c0c0);
+    background-image: linear-gradient(#313131, #252525);
     color: white;
     text-shadow: 0px 0px 4px white;
-    box-shadow: 0px 1px 16px black;
+    box-shadow: 0px 0px 18px white;
 }
 h1 {
     color: white;

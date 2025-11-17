@@ -135,7 +135,10 @@ window.onload = function() {
     if (darkModeSet === "true") {
         darkMode();
     }
+
+    window.SymbolColor = (darkModeSet === "true") ? "#fefefe" : "#070707";
 }
+
 function getCookie(name) {
     var cookieArr = document.cookie.split(";");
     for (var i = 0; i < cookieArr.length; i++) {

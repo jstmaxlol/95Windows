@@ -161,6 +161,10 @@ body {
     align-items: center;
     letter-spacing: -0.05em;
     background-color: #c8c8c8;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 /* Dark Mode Toggle */

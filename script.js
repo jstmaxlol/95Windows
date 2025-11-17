@@ -136,7 +136,7 @@ window.onload = function() {
         darkMode();
     }
 
-    window.SymbolColor = (darkModeSet === "true") ? "#fefefe" : "#070707";
+    window.SymbolColor = (darkModeSet === "true") ? "#a4a4a4" : "#070707";
 }
 
 function getCookie(name) {

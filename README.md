@@ -1,7 +1,7 @@
 # [🪟95Windows](https://95Windows.rf.gd/)
 A web-based **Windows 95** (_Retail & OEM_) product key generator.
 
-<!-- TODO: make this section expandable and retractable(?)-->
+<!-- TODO: make this section expandable and retractable(?) -->
 ### Changelogs
 - [x] 1X - Testing..
 - [x] 1A - UI sketched up, no scripts.
@@ -12,9 +12,10 @@ A web-based **Windows 95** (_Retail & OEM_) product key generator.
 - [x] 2B (β) - 'OEM' script is still half broken and we now have dark mode + cookies!
 - [x] 2B - UI's 99% done, 'OEM' script got rewritten, and cookies are now broken!
 - [x] 2C - Fixing cookies. (Likely the final version)
+- [x] 3A - Complete UI overhaul / redesign - Light mode sucks.
 
 ### Important Notes
-###### *Current live version: 2B
+###### *Current live version: 3A
 ###### *Since Windows 95 *should be :)* abandonware, Microsoft don't kill me for this
 
-###### jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F
+###### jstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>

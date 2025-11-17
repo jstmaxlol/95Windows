@@ -7,6 +7,12 @@ GitHub Repo: https://github.com/jstmaxlol/95Windows/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,100..800&display=swap');
 
+.selectable {
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
 canvas#c {
     position: fixed;
     top: 0; 

@@ -19,4 +19,4 @@ A web-based **Windows 95** (_Retail & OEM_) product key generator.
 ###### *Current live version: 3B
 ###### *Since Windows 95 *should be :)* abandonware, Microsoft don't kill me for this
 
-###### jstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
+###### czjstmax : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>

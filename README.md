@@ -1,3 +1,5 @@
+> (!) this repo is no longer maintainted. it has moved over at [git.czkove.cc](https://git.czkove.cc/)
+
 # [🪟95Windows](https://95Windows.rf.gd/)
 A web-based **Windows 95** (_Retail & OEM_) product key generator.
 
@@ -19,4 +21,4 @@ A web-based **Windows 95** (_Retail & OEM_) product key generator.
 ###### *Current live version: 3B
 ###### *Since Windows 95 *should be :)* abandonware, Microsoft don't kill me for this
 
-###### czjstmax : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
+###### czjstmax : <jstmaxlol@disroot.org>
